@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA2BA64416673A3C00E29D4B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA58CEA31665F39D0085382D /* MainStoryboard.storyboard */; };
 		BA58CDA11665ED7B0085382D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA58CDA01665ED7B0085382D /* UIKit.framework */; };
 		BA58CDA31665ED7B0085382D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA58CDA21665ED7B0085382D /* Foundation.framework */; };
 		BA58CDA51665ED7B0085382D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA58CDA41665ED7B0085382D /* CoreGraphics.framework */; };
@@ -500,6 +501,7 @@
 				BA58CE641665EE700085382D /* demo.html in Resources */,
 				BA58CE661665EE700085382D /* jskit_test.coffee in Resources */,
 				BA58CE681665EE700085382D /* jskit_test.coffee in Resources */,
+				BA2BA64416673A3C00E29D4B /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
