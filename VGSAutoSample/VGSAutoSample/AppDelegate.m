@@ -239,7 +239,7 @@ static int enterSwitch = 0;
             NSOperationQueue* operationQueue = [[NSOperationQueue alloc] init];
             [operationQueue setMaxConcurrentOperationCount:1];
             
-            NSDictionary* configDicionary = [CIUtil getRunInfoFromUrl:@"http://localhost:3000/config?key=adfqet87983hiu783flkad09806g98adgk&platform=ios"];
+            NSDictionary* configDicionary = [CIUtil getRunInfoFromUrl:@"http://localhost:3000/ios/vgs/config?key=adfqet87983hiu783flkad09806g98adgk"];
             
             NSString* suiteId = [configDicionary objectForKey:@"suite_id"];
             NSString* runId = [configDicionary objectForKey:@"run_id"];
@@ -283,7 +283,7 @@ static int enterSwitch = 0;
     
     
     QALog(@"------------- requesting subserver to generate perf report for Run %@",runId);
-    [CIUtil generateReport:@"adfqet87983hiu783flkad09806g98adgk" fromUrl:@"http://localhost:3000/ios/report"];
+    [CIUtil generateReport:@"adfqet87983hiu783flkad09806g98adgk" fromUrl:@"http://localhost:3000/ios/vgs/report"];
     QALog(@"------------- perf report generated for Run %@",runId);
     
     
