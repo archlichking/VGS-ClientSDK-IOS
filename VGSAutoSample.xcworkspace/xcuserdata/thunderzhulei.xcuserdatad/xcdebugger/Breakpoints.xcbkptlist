@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "VGSAutoSample/VGSAutoSample/AppDelegate.m"
-         timestampString = "375870598.034216"
+         timestampString = "376394616.61919"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "242"
-         endingLineNumber = "242"
+         startingLineNumber = "244"
+         endingLineNumber = "244"
          landmarkName = "-applicationDidBecomeActive:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -30,7 +30,7 @@
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
-         shouldBeEnabled = "Yes"
+         shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "VGSAutoSample/VGSAutoSample/steps/AuthorizationStepDefinition.m"
@@ -40,6 +40,45 @@
          startingLineNumber = "56"
          endingLineNumber = "56"
          landmarkName = "-I_logged_in_with_email_PARAM:_and_password_PARAM:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "VGSAutoSample/VGSAutoSample/steps/vgs/VGPlayerStepDefinition.m"
+         timestampString = "376454713.974814"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "36"
+         endingLineNumber = "36"
+         landmarkName = "-amount_of_currency_with_identifier_PARAM:_of_vgs_player_should_be_PARAMINT:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "VGSAutoSample/VGSAutoSample/steps/vgs/VGPlayerStepDefinition.m"
+         timestampString = "376454925.013945"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "24"
+         endingLineNumber = "24"
+         landmarkName = "-developer_uses_SDK_to_load_vgs_player_with_id_PARAM:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "VGSAutoSample/VGSAutoSample/steps/vgs/VGPlayerStepDefinition.m"
+         timestampString = "376454928.130104"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "23"
+         endingLineNumber = "23"
+         landmarkName = "-developer_uses_SDK_to_load_vgs_player_with_id_PARAM:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

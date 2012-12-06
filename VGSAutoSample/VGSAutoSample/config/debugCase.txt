@@ -1,3 +1,6 @@
 Given I logged in with email 229627987@qq.com and password aaaaaa
-And developer uses SDK to load vgs currency listings
-When developer uses SDK to check purchasablily of currency with identifier 
+When developer uses SDK to load vgs player with id 601121758
+Then amount of currency with identifier vgs.app.test.gree.k1 of vgs player should be 10
+And amount of currency with identifier vgs.app.test.gree.k2 of vgs player should be 10
+And amount of item with identifer ki.oop.item.i1 of vgs player should be 1
+And amount of item with identifer ki.oop.item.l2 of vgs player should be 2

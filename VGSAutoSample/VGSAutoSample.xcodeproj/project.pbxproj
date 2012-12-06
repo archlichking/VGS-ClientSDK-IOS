@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BA2BA64416673A3C00E29D4B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA58CEA31665F39D0085382D /* MainStoryboard.storyboard */; };
+		BA49C94D166F4BF10080F3C8 /* VGPlayerStepDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = BA49C94C166F4BF10080F3C8 /* VGPlayerStepDefinition.m */; };
 		BA58CDA11665ED7B0085382D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA58CDA01665ED7B0085382D /* UIKit.framework */; };
 		BA58CDA31665ED7B0085382D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA58CDA21665ED7B0085382D /* Foundation.framework */; };
 		BA58CDA51665ED7B0085382D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA58CDA41665ED7B0085382D /* CoreGraphics.framework */; };
@@ -90,6 +91,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA49C94B166F4BF10080F3C8 /* VGPlayerStepDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGPlayerStepDefinition.h; sourceTree = "<group>"; };
+		BA49C94C166F4BF10080F3C8 /* VGPlayerStepDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGPlayerStepDefinition.m; sourceTree = "<group>"; };
 		BA58CD9C1665ED7B0085382D /* VGSAutoSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VGSAutoSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA58CDA01665ED7B0085382D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BA58CDA21665ED7B0085382D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -359,6 +362,8 @@
 				BA58CE141665EE700085382D /* VGCurrenciesStepDefinition.m */,
 				BA58CE151665EE700085382D /* VGItemStepDefinition.h */,
 				BA58CE161665EE700085382D /* VGItemStepDefinition.m */,
+				BA49C94B166F4BF10080F3C8 /* VGPlayerStepDefinition.h */,
+				BA49C94C166F4BF10080F3C8 /* VGPlayerStepDefinition.m */,
 			);
 			path = vgs;
 			sourceTree = "<group>";
@@ -532,6 +537,7 @@
 				BA58CE651665EE700085382D /* ggp_command.js in Sources */,
 				BA58CE671665EE700085382D /* jskit_test.js in Sources */,
 				BA58CE691665EE700085382D /* jskit_test.js in Sources */,
+				BA49C94D166F4BF10080F3C8 /* VGPlayerStepDefinition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
