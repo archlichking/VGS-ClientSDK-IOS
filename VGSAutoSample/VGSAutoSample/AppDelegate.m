@@ -37,6 +37,7 @@
 #import "VGCurrenciesStepDefinition.h"
 #import "VGItemStepDefinition.h"
 #import "VGPlayerStepDefinition.h"
+#import "VGAssetStepDefinition.h"
 #import "StepDefinition.h"
 
 #define RUN_MODE 1
@@ -99,6 +100,7 @@ static int enterSwitch = 0;
                             class_createInstance([VGCurrenciesStepDefinition class], 0),
                             class_createInstance([VGItemStepDefinition class], 0),
                             class_createInstance([VGPlayerStepDefinition class], 0),
+                            class_createInstance([VGAssetStepDefinition class], 0),
                             nil] autorelease];
 
     
