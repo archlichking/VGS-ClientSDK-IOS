@@ -138,7 +138,7 @@ static int enterSwitch = 0;
     [[GreeVirtualGoods sharedInstance] setOfflineMetadataImportBlock:^(NSDictionary *offlineMetadata, GreeVGPlayer *player) {
         NSString* message = [NSString stringWithFormat:@"Offline: %@  Player keys: %@", offlineMetadata, player.metadataKeys];
         UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Offline metadata import" message:message delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-        [[alertView autorelease] show];
+//        [[alertView autorelease] show];
     }];
     [[GreeVirtualGoods sharedInstance] setStoreDataObserverBlock:^{
         NSArray* newItemListings = [GreeVirtualGoods sharedInstance].itemListingsNewInLastSync;

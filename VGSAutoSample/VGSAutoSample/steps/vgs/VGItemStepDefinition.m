@@ -166,4 +166,11 @@ _and_currency_PARAM:(NSString*) identifier
     }
 }
 
+-(void) assets_of_item_PARAM:(NSString*) identifier
+       _should_contain_PARAM:(NSString*) content{
+    GreeVGItem* item = [[self getBlockRepo] objectForKey:@"vgitem"];
+    [QAAssert assertContainsExpected:content
+                            Contains:[[item assetFilenames] description]];
+}
+
 @end

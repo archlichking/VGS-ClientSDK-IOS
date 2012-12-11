@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "VGSAutoSample/VGSAutoSample/AppDelegate.m"
-         timestampString = "376394616.61919"
+         timestampString = "376891473.161406"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "244"
-         endingLineNumber = "244"
+         startingLineNumber = "246"
+         endingLineNumber = "246"
          landmarkName = "-applicationDidBecomeActive:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -79,6 +79,19 @@
          startingLineNumber = "23"
          endingLineNumber = "23"
          landmarkName = "-developer_uses_SDK_to_load_vgs_player_with_id_PARAM:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "VGSAutoSample/VGSAutoSample/steps/vgs/VGAssetStepDefinition.m"
+         timestampString = "376897609.801589"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "21"
+         endingLineNumber = "21"
+         landmarkName = "-developer_uses_SDK_to_load_vgs_asset_with_filename_PARAM:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

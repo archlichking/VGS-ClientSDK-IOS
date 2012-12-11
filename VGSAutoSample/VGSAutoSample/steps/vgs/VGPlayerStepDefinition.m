@@ -45,4 +45,10 @@
 
 }
 
+-(void) amount_of_items_should_be_PARAMINT:(NSString*) num{
+    GreeVGPlayer* player = [[self getBlockRepo] objectForKey:@"vgplayer"];
+    [QAAssert assertEqualsExpected:[NSString stringWithFormat:@"%i", [[player allItemsInInventory] count]]
+                            Actual:num];
+}
+
 @end

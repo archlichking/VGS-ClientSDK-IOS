@@ -35,4 +35,7 @@
 - (void) info_PARAM:(NSString*) info _of_vgs_item_listing_PARAM:(NSString*) name
 _and_currency_PARAM:(NSString*) identifier
    _should_be_PARAM:(NSString*) price;
+
+-(void) assets_of_item_PARAM:(NSString*) identifier2
+       _should_contain_PARAM:(NSString*) content;
 @end

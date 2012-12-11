@@ -78,6 +78,7 @@
 		BA58CEA01665F26F0085382D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA58CE9F1665F26F0085382D /* CoreLocation.framework */; };
 		BA58CEA21665F2A50085382D /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA58CEA11665F2A50085382D /* OCHamcrestIOS.framework */; };
 		BA58CEC41665F5D70085382D /* TestCaseWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = BA58CE1B1665EE700085382D /* TestCaseWrapper.m */; };
+		BA7C45C31676E3FA00511C15 /* VGAssetStepDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7C45C21676E3FA00511C15 /* VGAssetStepDefinition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -179,6 +180,8 @@
 		BA58CE9F1665F26F0085382D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		BA58CEA11665F2A50085382D /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCHamcrestIOS.framework; path = ../QAAutoLib/QAAutoLib/QAAutoLib/vendor/OCHamcrestIOS.framework; sourceTree = "<group>"; };
 		BA58CEA41665F39D0085382D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BA7C45C11676E3FA00511C15 /* VGAssetStepDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGAssetStepDefinition.h; sourceTree = "<group>"; };
+		BA7C45C21676E3FA00511C15 /* VGAssetStepDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGAssetStepDefinition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -364,6 +367,8 @@
 				BA58CE161665EE700085382D /* VGItemStepDefinition.m */,
 				BA49C94B166F4BF10080F3C8 /* VGPlayerStepDefinition.h */,
 				BA49C94C166F4BF10080F3C8 /* VGPlayerStepDefinition.m */,
+				BA7C45C11676E3FA00511C15 /* VGAssetStepDefinition.h */,
+				BA7C45C21676E3FA00511C15 /* VGAssetStepDefinition.m */,
 			);
 			path = vgs;
 			sourceTree = "<group>";
@@ -538,6 +543,7 @@
 				BA58CE671665EE700085382D /* jskit_test.js in Sources */,
 				BA58CE691665EE700085382D /* jskit_test.js in Sources */,
 				BA49C94D166F4BF10080F3C8 /* VGPlayerStepDefinition.m in Sources */,
+				BA7C45C31676E3FA00511C15 /* VGAssetStepDefinition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

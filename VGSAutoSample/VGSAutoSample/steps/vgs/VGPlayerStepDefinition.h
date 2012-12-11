@@ -17,4 +17,6 @@
 -(void) amount_of_item_with_identifer_PARAM:(NSString*) idn
           _of_vgs_player_should_be_PARAMINT:(NSString*) content;
 
+-(void) amount_of_items_should_be_PARAMINT:(NSString*) num;
+
 @end
